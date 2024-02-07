@@ -1,0 +1,30 @@
+786728464 io.jitpack:example-root:pom:2.0-SNAPSHOT
+#
+204273047 io.jitpack:module1:jar:2.0-SNAPSHOT
+1917579871 junit:junit:jar:3.8.1:test
+703841336 com.google.guava:guava:jar:18.0:compile
+#
+204273047 1917579871 test
+204273047 703841336 compile
+801412408 io.jitpack:module2:jar:2.0-SNAPSHOT
+1728266914 io.jitpack:module1:jar:2.0-SNAPSHOT:compile
+224286556 com.google.guava:guava:jar:18.0:compile
+2000856156 junit:junit:jar:3.8.1:test
+2091160281 com.fasterxml.jackson.module:jackson-module-kotlin:jar:2.9.6:compile
+22006205 com.fasterxml.jackson.core:jackson-databind:jar:2.9.6:compile
+2127862399 com.fasterxml.jackson.core:jackson-core:jar:2.9.6:compile
+483832253 com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile
+1144838820 org.jetbrains.kotlin:kotlin-reflect:jar:1.2.21:compile
+994173375 org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.21:compile
+1637651402 org.jetbrains:annotations:jar:13.0:compile
+#
+1728266914 224286556 compile
+801412408 1728266914 compile
+801412408 2000856156 test
+22006205 2127862399 compile
+2091160281 22006205 compile
+2091160281 483832253 compile
+994173375 1637651402 compile
+1144838820 994173375 compile
+2091160281 1144838820 compile
+801412408 2091160281 compile
